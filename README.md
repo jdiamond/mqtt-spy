@@ -7,13 +7,13 @@ npm install --global mqtt-spy
 Run:
 
 ```
-mqtt-spy 1883 mqtt.example.com 1883
+mqtt-spy 3881 mqtt.example.com 1883
 ```
 
 Publish:
 
 ```
-mosquitto_pub -h localhost -p 1883 -t foo -m bar -q 1
+mosquitto_pub -h localhost -p 3881 -t foo -m bar -q 1
 ```
 
 Output:
