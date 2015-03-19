@@ -1,0 +1,24 @@
+{
+  "name": "mqtt-spy",
+  "version": "1.0.0",
+  "author": "Jason Diamond <jason@diamond.name>",
+  "license": "MIT",
+  "description": "MQTT proxy server for debugging",
+  "keywords": [
+    "mqtt",
+    "proxy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdiamond/mqtt-spy.git"
+  },
+  "main": "mqtt-spy.js",
+  "bin": {
+    "mqtt-spy": "./mqtt-spy.js"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "mqtt-packet": "^3.2.0",
+    "tcp-spy": "^0.6.0"
+  }
+}
