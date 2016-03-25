@@ -40,7 +40,7 @@ var spy = tcpSpy({
   forwardHost: targetHost,
   forwardPort: targetPort,
   forwardTLS: !!(args['forward-ca'] || args['forward-tls']),
-  forwardCA: args['forward-ca'],
+  forwardCA: args['forward-ca'] && fs.readFileSync(args['forward-ca']),
   forwardInsecure: args['forward-insecure']
 })
 
