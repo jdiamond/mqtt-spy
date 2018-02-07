@@ -67,8 +67,3 @@ Output:
 1 ---
 ```
 
-TLS Example:
-
-```
-mqtt-spy --cert path/to/crt --key path/to/key --forward-ca path/to/crt 8883 1.2.3.4 8883
-```
